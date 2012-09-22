@@ -16,6 +16,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    NSLog(@"AppInternalLabel: %@", NSLocalizedStringFromTable(@"AppInternalLabel", @"InfoPlist", nil));
+    
     return YES;
 }
 

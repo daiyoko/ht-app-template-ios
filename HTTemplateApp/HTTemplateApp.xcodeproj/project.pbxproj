@@ -18,6 +18,10 @@
 		E56593D7160D9C2500C255DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E56593D6160D9C2500C255DE /* Default-568h@2x.png */; };
 		E56593EA160D9E5800C255DE /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E56593E9160D9E5800C255DE /* AppConfig.plist */; };
 		E56593EF160DA05200C255DE /* HTAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E56593EE160DA05200C255DE /* HTAppConfig.m */; };
+		E56593F1160DA8C400C255DE /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E56593F0160DA8C400C255DE /* Entitlements.plist */; };
+		E56593F8160DAA7000C255DE /* HTRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56593F7160DAA7000C255DE /* HTRevealViewController.m */; };
+		E56593FB160DAB9500C255DE /* HTRootMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56593FA160DAB9500C255DE /* HTRootMenuViewController.m */; };
+		E56593FE160DABB700C255DE /* HTCustomMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56593FD160DABB700C255DE /* HTCustomMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,13 @@
 		E56593EC160D9F8400C255DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E56593ED160DA05200C255DE /* HTAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAppConfig.h; sourceTree = "<group>"; };
 		E56593EE160DA05200C255DE /* HTAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAppConfig.m; sourceTree = "<group>"; };
+		E56593F0160DA8C400C255DE /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		E56593F6160DAA7000C255DE /* HTRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTRevealViewController.h; sourceTree = "<group>"; };
+		E56593F7160DAA7000C255DE /* HTRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTRevealViewController.m; sourceTree = "<group>"; };
+		E56593F9160DAB9500C255DE /* HTRootMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTRootMenuViewController.h; sourceTree = "<group>"; };
+		E56593FA160DAB9500C255DE /* HTRootMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTRootMenuViewController.m; sourceTree = "<group>"; };
+		E56593FC160DABB700C255DE /* HTCustomMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCustomMenuViewController.h; sourceTree = "<group>"; };
+		E56593FD160DABB700C255DE /* HTCustomMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCustomMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +118,7 @@
 				E56593D2160D9C2500C255DE /* Default.png */,
 				E56593D4160D9C2500C255DE /* Default@2x.png */,
 				E56593D6160D9C2500C255DE /* Default-568h@2x.png */,
+				E56593F0160DA8C400C255DE /* Entitlements.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +174,8 @@
 		E56593E7160D9D0600C255DE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				E56593F3160DAA3C00C255DE /* Views */,
+				E56593F2160DAA1B00C255DE /* ViewControllers */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -171,6 +185,42 @@
 			children = (
 			);
 			name = Libraries;
+			sourceTree = "<group>";
+		};
+		E56593F2160DAA1B00C255DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E56593F5160DAA4A00C255DE /* Detail View Controllers */,
+				E56593F4160DAA4400C255DE /* Sections */,
+				E56593F6160DAA7000C255DE /* HTRevealViewController.h */,
+				E56593F7160DAA7000C255DE /* HTRevealViewController.m */,
+				E56593F9160DAB9500C255DE /* HTRootMenuViewController.h */,
+				E56593FA160DAB9500C255DE /* HTRootMenuViewController.m */,
+				E56593FC160DABB700C255DE /* HTCustomMenuViewController.h */,
+				E56593FD160DABB700C255DE /* HTCustomMenuViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E56593F3160DAA3C00C255DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E56593F4160DAA4400C255DE /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		E56593F5160DAA4A00C255DE /* Detail View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Detail View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +282,7 @@
 				E56593D5160D9C2500C255DE /* Default@2x.png in Resources */,
 				E56593D7160D9C2500C255DE /* Default-568h@2x.png in Resources */,
 				E56593EA160D9E5800C255DE /* AppConfig.plist in Resources */,
+				E56593F1160DA8C400C255DE /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +296,9 @@
 				E56593CD160D9C2500C255DE /* main.m in Sources */,
 				E56593D1160D9C2500C255DE /* HTAppDelegate.m in Sources */,
 				E56593EF160DA05200C255DE /* HTAppConfig.m in Sources */,
+				E56593F8160DAA7000C255DE /* HTRevealViewController.m in Sources */,
+				E56593FB160DAB9500C255DE /* HTRootMenuViewController.m in Sources */,
+				E56593FE160DABB700C255DE /* HTCustomMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

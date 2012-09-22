@@ -8,16 +8,29 @@
 
 #import "HTAppDelegate.h"
 
+@interface HTAppDelegate ()
+@property (nonatomic, strong) HTRevealViewController *reveal;
+@end
+
 @implementation HTAppDelegate
+
+@synthesize window = _window;
+@synthesize reveal = _reveal;
+
+- (void)configureAppearance
+{
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     
-    NSLog(@"AppInternalLabel: %@", NSLocalizedStringFromTable(@"AppInternalLabel", @"InfoPlist", nil));
+    [self configureAppearance];
+    
+    self.window.rootViewController = self.reveal;
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

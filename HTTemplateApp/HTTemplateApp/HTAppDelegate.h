@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#import "HTRevealViewController.h"
+#import "HTRootMenuViewController.h"
+#import "HTCustomMenuViewController.h"
+
 @interface HTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

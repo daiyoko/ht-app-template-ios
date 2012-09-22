@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5196258160DD2FE001A906D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5196257160DD2FE001A906D /* QuartzCore.framework */; };
 		E56593C1160D9C2500C255DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56593C0160D9C2500C255DE /* UIKit.framework */; };
 		E56593C3160D9C2500C255DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56593C2160D9C2500C255DE /* Foundation.framework */; };
 		E56593C5160D9C2500C255DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56593C4160D9C2500C255DE /* CoreGraphics.framework */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5196257160DD2FE001A906D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E56593BC160D9C2500C255DE /* HTTemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56593C0160D9C2500C255DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E56593C2160D9C2500C255DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5196258160DD2FE001A906D /* QuartzCore.framework in Frameworks */,
 				E56593C1160D9C2500C255DE /* UIKit.framework in Frameworks */,
 				E56593C3160D9C2500C255DE /* Foundation.framework in Frameworks */,
 				E56593C5160D9C2500C255DE /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		E56593BF160D9C2500C255DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5196257160DD2FE001A906D /* QuartzCore.framework */,
 				E56593C0160D9C2500C255DE /* UIKit.framework */,
 				E56593C2160D9C2500C255DE /* Foundation.framework */,
 				E56593C4160D9C2500C255DE /* CoreGraphics.framework */,
@@ -408,6 +412,7 @@
 				E56593DC160D9C2500C255DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

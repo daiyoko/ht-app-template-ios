@@ -10,16 +10,34 @@
 
 @interface HTAppDelegate ()
 @property (nonatomic, strong) HTRevealViewController *reveal;
+@property (nonatomic, strong) HTRootMenuViewController *menu;
+@property (nonatomic, strong) HTCustomMenuViewController *customMenu;
 @end
 
 @implementation HTAppDelegate
 
 @synthesize window = _window;
 @synthesize reveal = _reveal;
+@synthesize menu;
+@synthesize customMenu;
 
 - (void)configureAppearance
 {
     
+}
+
+- (HTRootMenuViewController *)loadMenu
+{
+    HTRootMenuViewController *menuController = [[HTRootMenuViewController alloc] initWithNibName:nil bundle:nil];
+    
+    return menuController;
+}
+
+- (HTCustomMenuViewController *)loadCustomMenu
+{
+    HTCustomMenuViewController *customMenuController = [[HTCustomMenuViewController alloc] initWithNibName:nil bundle:nil];
+    
+    return customMenuController;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -28,6 +46,12 @@
     
     [self configureAppearance];
     
+    self.menu = [self loadMenu];
+    self.customMenu = [self loadCustomMenu];
+    
+    UIViewController *defaultViewController = [[UIViewController alloc] init];
+    
+    self.reveal = [[HTRevealViewController alloc] initWithMenuViewController:self.menu contentViewController:defaultViewController customMenuViewController:self.customMenu];
     self.window.rootViewController = self.reveal;
     
     [self.window makeKeyAndVisible];

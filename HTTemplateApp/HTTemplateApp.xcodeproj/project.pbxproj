@@ -52,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				E56593C6160D9C2500C255DE /* HTTemplateApp */,
+				E56593E8160D9D2500C255DE /* Libraries */,
 				E56593BF160D9C2500C255DE /* Frameworks */,
 				E56593BD160D9C2500C255DE /* Products */,
 			);
@@ -80,6 +81,9 @@
 			children = (
 				E56593CF160D9C2500C255DE /* HTAppDelegate.h */,
 				E56593D0160D9C2500C255DE /* HTAppDelegate.m */,
+				E56593E3160D9CA700C255DE /* Classes */,
+				E56593E2160D9CA200C255DE /* html */,
+				E56593E1160D9C9800C255DE /* Graphics */,
 				E56593C7160D9C2500C255DE /* Supporting Files */,
 			);
 			path = HTTemplateApp;
@@ -97,6 +101,66 @@
 				E56593D6160D9C2500C255DE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E56593E1160D9C9800C255DE /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		E56593E2160D9CA200C255DE /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = html;
+			sourceTree = "<group>";
+		};
+		E56593E3160D9CA700C255DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E56593E7160D9D0600C255DE /* UI */,
+				E56593E6160D9CE200C255DE /* Utilities */,
+				E56593E5160D9CDC00C255DE /* Model */,
+				E56593E4160D9CCD00C255DE /* Business Logic */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E56593E4160D9CCD00C255DE /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Business Logic";
+			sourceTree = "<group>";
+		};
+		E56593E5160D9CDC00C255DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E56593E6160D9CE200C255DE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E56593E7160D9D0600C255DE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		E56593E8160D9D2500C255DE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

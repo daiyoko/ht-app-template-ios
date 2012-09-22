@@ -16,6 +16,7 @@
 		E56593D3160D9C2500C255DE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E56593D2160D9C2500C255DE /* Default.png */; };
 		E56593D5160D9C2500C255DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E56593D4160D9C2500C255DE /* Default@2x.png */; };
 		E56593D7160D9C2500C255DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E56593D6160D9C2500C255DE /* Default-568h@2x.png */; };
+		E56593EA160D9E5800C255DE /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E56593E9160D9E5800C255DE /* AppConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E56593D2160D9C2500C255DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E56593D4160D9C2500C255DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E56593D6160D9C2500C255DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E56593E9160D9E5800C255DE /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				E56593C9160D9C2500C255DE /* InfoPlist.strings */,
 				E56593CC160D9C2500C255DE /* main.m */,
 				E56593CE160D9C2500C255DE /* HTTemplateApp-Prefix.pch */,
+				E56593E9160D9E5800C255DE /* AppConfig.plist */,
 				E56593D2160D9C2500C255DE /* Default.png */,
 				E56593D4160D9C2500C255DE /* Default@2x.png */,
 				E56593D6160D9C2500C255DE /* Default-568h@2x.png */,
@@ -219,6 +222,7 @@
 				E56593D3160D9C2500C255DE /* Default.png in Resources */,
 				E56593D5160D9C2500C255DE /* Default@2x.png in Resources */,
 				E56593D7160D9C2500C255DE /* Default-568h@2x.png in Resources */,
+				E56593EA160D9E5800C255DE /* AppConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

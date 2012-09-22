@@ -17,6 +17,7 @@
 		E56593D5160D9C2500C255DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E56593D4160D9C2500C255DE /* Default@2x.png */; };
 		E56593D7160D9C2500C255DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E56593D6160D9C2500C255DE /* Default-568h@2x.png */; };
 		E56593EA160D9E5800C255DE /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E56593E9160D9E5800C255DE /* AppConfig.plist */; };
+		E56593EF160DA05200C255DE /* HTAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E56593EE160DA05200C255DE /* HTAppConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,10 @@
 		E56593D4160D9C2500C255DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E56593D6160D9C2500C255DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E56593E9160D9E5800C255DE /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+		E56593EB160D9F5F00C255DE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E56593EC160D9F8400C255DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E56593ED160DA05200C255DE /* HTAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAppConfig.h; sourceTree = "<group>"; };
+		E56593EE160DA05200C255DE /* HTAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAppConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +139,8 @@
 		E56593E4160D9CCD00C255DE /* Business Logic */ = {
 			isa = PBXGroup;
 			children = (
+				E56593ED160DA05200C255DE /* HTAppConfig.h */,
+				E56593EE160DA05200C255DE /* HTAppConfig.m */,
 			);
 			name = "Business Logic";
 			sourceTree = "<group>";
@@ -202,6 +209,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hant",
+				"zh-Hans",
 			);
 			mainGroup = E56593B1160D9C2500C255DE;
 			productRefGroup = E56593BD160D9C2500C255DE /* Products */;
@@ -235,6 +244,7 @@
 			files = (
 				E56593CD160D9C2500C255DE /* main.m in Sources */,
 				E56593D1160D9C2500C255DE /* HTAppDelegate.m in Sources */,
+				E56593EF160DA05200C255DE /* HTAppConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +255,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				E56593CA160D9C2500C255DE /* en */,
+				E56593EB160D9F5F00C255DE /* zh-Hant */,
+				E56593EC160D9F8400C255DE /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
